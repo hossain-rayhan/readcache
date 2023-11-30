@@ -15,7 +15,7 @@ Caffeine for in-memory caching, Jackson for processing JSON, Mockito for Mocking
 - Build and Run unit tests using the command: `./mvnw clean install`
 - Run the application using the command: `./mvnw spring-boot:run`. This will start the web server and will listen to default port: 8080
 - If you want to change the default server port, set it in the environment variable like: `export SERVER_PORT=8181`. Then the server will start listening at 8181.
-- To avoid throttling, you can set the GITHUB_API_TOKEN like `export GITHUB_API_TOKEN='Your_GitHub_API_Token`. [Note] I haven't tested using an API Token, but it should work fine as I have proper setup.
+- To avoid throttling, you can set the GITHUB_API_TOKEN like `export GITHUB_API_TOKEN='Your_GitHub_API_Token`.
 - Now open another terminal and start hitting different endpoints as follows. You can also hit the endpoints from a browser. The server should return you expected data.
   - `curl http://localhost:8080`
   - `curl http://localhost:8080/view/bottom/10/forks`

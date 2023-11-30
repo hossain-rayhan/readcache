@@ -84,6 +84,8 @@ test-06-08: /view/bottom/10/stars = failed
 ### Next Steps
 - The code is modularized, but I believe that given time, I can improve it to make it robust and scalable for other vendor APIs.
 - I have added unit tests for all classes except the GitHubClient. The next step would be to improve unit test coverage. 
+- I am not super happy with current Exception handling and translation. Next step would be to improve error handling and propagation.
+- Some of the field could be private. But I had to make them package private to make the unit tests work. Given time I should fix them.
 
 
 ### References
